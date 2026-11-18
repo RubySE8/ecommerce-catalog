@@ -4,7 +4,7 @@ interface ErrorMessageProps {
 
 export const ErrorMessage = ({ message }: ErrorMessageProps) => {
   return (
-    <div style={{ textAlign: 'center', padding: '2rem', color: 'red' }}>
+    <div className="message-container message-error">
       <p>Error: {message}</p>
       <p>Por favor, intenta recargar la página.</p>
     </div>

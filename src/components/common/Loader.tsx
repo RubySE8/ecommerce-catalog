@@ -1,6 +1,6 @@
 export const Loader = () => {
   return (
-    <div style={{ textAlign: 'center', padding: '2rem' }}>
+    <div className="message-container">
       <p>Cargando productos...</p>
     </div>
   );

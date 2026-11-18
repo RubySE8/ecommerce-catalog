@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #646cff;
+  --border-color: #ccc;
+  --bg-card: #1a1a1a;
+  --text-muted: #888;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #242424;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
